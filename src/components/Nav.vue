@@ -10,8 +10,8 @@
                     <router-link to="/" class="text-16px text-color-454545 ">Tentang</router-link>
                 </div>
                 <div id="nav__right" class="flex items-center">
-                    <router-link to="/" class="text-16px text-color-454545">Daftar</router-link>
-                    <router-link to="/" class="text-16px text-color-454545 ml-12">Masuk</router-link>
+                    <router-link :to="{ name: 'Daftar' }" class="text-16px text-color-454545">Daftar</router-link>
+                    <router-link :to="{ name: 'Masuk' }" class="text-16px text-color-454545 ml-12">Masuk</router-link>
                     <router-link to="/" class="text-color-454545 ml-12">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M17.4994 17.4998L13.761 13.7548L17.4994 17.4998ZM15.8327 8.74984C15.8327 10.6285 15.0864 12.4301 13.758 13.7585C12.4296 15.0869 10.628 15.8332 8.74935 15.8332C6.87073 15.8332 5.06906 15.0869 3.74068 13.7585C2.41229 12.4301 1.66602 10.6285 1.66602 8.74984C1.66602 6.87122 2.41229 5.06955 3.74068 3.74116C5.06906 2.41278 6.87073 1.6665 8.74935 1.6665C10.628 1.6665 12.4296 2.41278 13.758 3.74116C15.0864 5.06955 15.8327 6.87122 15.8327 8.74984V8.74984Z" stroke="currentcolor" stroke-linecap="round"/>
@@ -46,6 +46,7 @@
         height: 116px;
         width: 100%;
         position: fixed;
+        z-index: 100;
         top: 0;
         left: 50%;
         transform: translateX(-50%);

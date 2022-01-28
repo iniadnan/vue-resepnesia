@@ -5,23 +5,13 @@
         class="button-submit h-56px w-full flex items-center justify-center text-white text-16px"
         type="button"
       >
-        <span class="pr-3">Masuk</span>
-        <svg
-          width="21"
-          height="20"
-          viewBox="0 0 21 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M14.5 10L8.5 5V8H1.5V12H8.5V15L14.5 10ZM17.5 17H9.5V19H17.5C18.6 19 19.5 18.1 19.5 17V3C19.5 1.9 18.6 1 17.5 1H9.5V3H17.5V17Z"
-            fill="white"
-          />
-        </svg>
+        <slot name="button"></slot>
       </button>
     </div>
     <div class="text-center mb-5">
-      <p class="text-16px text-color-454545">Atau masuk menggunakan</p>
+      <p class="text-16px text-color-454545">
+        <slot name="text-top"></slot>
+      </p>
     </div>
     <div class="flex items-center justify-between gap-x-4 mb-10">
       <a
@@ -123,7 +113,7 @@
     </div>
     <div>
       <p class="text-16px text-color-3c1919 text-center">
-        Belum punya akun ? Daftar
+        <slot name="text-bottom"></slot>
       </p>
     </div>
   </div>
