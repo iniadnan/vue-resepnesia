@@ -3,8 +3,23 @@
 @tailwind utilities;
 
 @layer utilities {
+    body {
+        font-family: 'Quicksand', sans-serif;
+    }
     a, button {
         cursoir: pointer;
         transition: 0.125s ease-in;
+    }
+
+    .container-resepnesia {
+        max-width: 1240px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    @media (min-width: 1536px) {
+        .container-resepnesia {
+            max-width: 1440px;
+            width: 100%;
+        }
     }
 }
