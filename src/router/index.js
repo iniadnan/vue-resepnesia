@@ -7,15 +7,20 @@ const routes = [
     component: () => import('@/views/Home.vue')
   },
   {
-    path: '/masuk',
+    path: '/daerah/',
+    name: 'Daerah',
+    component: () => import('@/views/Daerah.vue')
+  },
+  {
+    path: '/masuk/',
     name: 'Masuk',
     component: () => import('@/views/Masuk.vue')
   },
   {
-    path: '/daftar',
+    path: '/daftar/',
     name: 'Daftar',
     component: () => import('@/views/Daftar.vue')
-  }
+  },
 ]
 
 const router = createRouter({
