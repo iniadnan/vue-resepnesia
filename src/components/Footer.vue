@@ -1,6 +1,6 @@
 <template>
     <footer id="footer">
-        <div class="container-resepnesia py-16">
+        <div class="container-resepnesia py-16 z-1">
             <div id="footer__top" class="flex flex-wrap">
                 <div class="footer__top__1">
                     <h4 class="text-4xl text-white mb-5"><strong class="font-bold">Resep</strong>nesia</h4>
@@ -67,6 +67,7 @@
                 </div>
             </div>
         </div>
+        <img class="h-full absolute top-0 right-0" src="@/assets/images/footer-background.png" alt="Footer Background">
     </footer>
 </template>
 
@@ -79,6 +80,7 @@
 <style lang="scss" scoped>
     #footer {
         background: linear-gradient(159.87deg, #F05454 0%, #983232 162.48%);
+        position: relative;
         #footer__top {
             margin-bottom: 55px;
             .footer__top__1 {
