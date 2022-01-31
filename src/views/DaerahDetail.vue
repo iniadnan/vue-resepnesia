@@ -4,10 +4,13 @@
     <header></header>
     <main>
       <div class="container-resepnesia py-20">
-        <div class="w-full">
+        <div class="w-full mb-12">
           <TitleSection>Populer di Sumatera Barat</TitleSection>
         </div>
-        <div class="w-full grid grid-flow-row grid-cols-2 md:grid-cols-3 gap-11">
+        <div class="w-full grid grid-flow-row grid-cols-2 md:grid-cols-4 gap-11">
+          <MasakanItem />
+          <MasakanItem />
+          <MasakanItem />
           <MasakanItem />
         </div>
       </div>
@@ -16,6 +19,16 @@
       <div class="container-resepnesia pt-11 pb-32">
         <div class="w-full">
           <TitleSection>Makanan khas Sumatera Barat</TitleSection>
+        </div>
+        <div class="w-full grid grid-flow-row grid-cols-2 md:grid-cols-4 gap-11">
+          <MasakanItem />
+          <MasakanItem />
+          <MasakanItem />
+          <MasakanItem />
+          <MasakanItem />
+          <MasakanItem />
+          <MasakanItem />
+          <MasakanItem />
         </div>
         <div class="flex justify-center mt-14">
           <Pagination />
