@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
     <div class="absolute right-0" style="top: 109px">
-      <img src="@/assets/images/blog-right.png" alt="Blog Right">
+      <img src="@/assets/images/blog-right.png" alt="Blog Left">
     </div>
     <div class="absolute top-5 left-0">
       <img src="@/assets/images/blog-left.png" alt="Blog Right">

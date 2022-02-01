@@ -4,7 +4,7 @@
             <div class="h-full w-full flex flex-wrap items-center justify-between">
                 <div id="nav__left" class="flex items-center">
                     <router-link to="/" class="text-3xl text-color-454545 mr-10"><strong class="font-bold text-color-f05454">Resep</strong>nesia</router-link>
-                    <router-link to="/" class="text-16px text-color-454545 mr-12">Resep</router-link>
+                    <router-link :to="{ name: 'Resep' }" class="text-16px text-color-454545 mr-12">Resep</router-link>
                     <router-link :to="{ name: 'Daerah' }" class="text-16px text-color-454545 mr-12">Daerah</router-link>
                     <router-link :to="{ name: 'Blog' }" class="text-16px text-color-454545 mr-12">Blog</router-link>
                     <router-link to="/" class="text-16px text-color-454545">Tentang</router-link>
