@@ -1,5 +1,11 @@
 <template>
-  <div>
+  <div class="relative">
+    <div class="absolute right-0" style="top: 109px">
+      <img src="@/assets/images/blog-right.png" alt="Blog Right">
+    </div>
+    <div class="absolute top-5 left-0">
+      <img src="@/assets/images/blog-left.png" alt="Blog Right">
+    </div>
     <Nav />
     <section>
       <div class="container-resepnesia">
@@ -10,7 +16,7 @@
         </div>
       </div>
     </section>
-    <main>
+    <main class="relative z-1">
       <div class="container-resepnesia">
         <div class="grid grid-flow-cols grid-cols-3 gap-y-12 gap-x-14">
             <BlogItem></BlogItem>
