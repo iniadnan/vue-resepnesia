@@ -17,6 +17,16 @@ const routes = [
     component: () => import('@/views/DaerahDetail.vue')
   },
   {
+    path: '/tersimpan/',
+    name: 'Tersimpan',
+    component: () => import('@/views/Tersimpan.vue')
+  },
+  {
+    path: '/blog/',
+    name: 'Blog',
+    component: () => import('@/views/Blog.vue')
+  },
+  {
     path: '/masuk/',
     name: 'Masuk',
     component: () => import('@/views/Masuk.vue')
